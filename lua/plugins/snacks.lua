@@ -1,0 +1,32 @@
+return {
+    {
+        "folke/snacks.nvim",
+        priority = 1000,
+        lazy = false,
+        opts = {
+            bigfile = { enabled = true },
+            bufdelete = { enabled = true },
+            dashboard = { enabled = true },
+            input = { enabled = true },
+            notifier = { enabled = true },
+            picker = { enabled = true },
+            quickfile = { enabled = true },
+        },
+        keys = {
+            {
+                "<leader><space>",
+                function()
+                    Snacks.picker.smart()
+                end,
+                desc = "Smart Find Files",
+            },
+            {
+                "<leader>n",
+                function()
+                    Snacks.picker.notifications()
+                end,
+                desc = "Notification History",
+            },
+        },
+    },
+}
