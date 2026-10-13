@@ -1,10 +1,8 @@
-vim.cmd("set expandtab");
-vim.cmd("set tabstop=4");
-vim.cmd("set softtabstop=4");
-vim.cmd("set shiftwidth=4");
-
--- lazy.nvim
+-- lazy.nvim and plugin configs:
 require("config.lazy");
-require("config.colorschemes");
-require("config.keymaps");
 require("config.treesitter");
+
+-- vim options (gutter, tabstops, keybinds, colorschemes etc):
+vim.cmd.colorscheme("onedark")
+require("config.vim-options");
+require("config.keymaps");

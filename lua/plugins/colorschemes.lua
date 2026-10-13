@@ -18,7 +18,13 @@ return {
         "olimorris/onedarkpro.nvim",
         lazy = false,
         priority = 1000,
-    }
+    },
+
+    {
+        "Mofiqul/dracula.nvim",
+        lazy = false,
+        priority = 1000,
+    },
 
     -- TODO: Install gruvbox, nightowl, and \onedark pro\
 }
