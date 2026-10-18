@@ -11,14 +11,12 @@ return {
     lazy = false, -- neo-tree will lazily load itself
     keys = {
         {
-            "<leader>f<Right>",
+            "<leader>fl",
             "<cmd>Neotree filesystem position=right toggle<cr>",
-            desc = "J.A.R.V.I.S.: Neo-tree on your right, sir",
         },
         {
-            "<leader>f<Left>",
+            "<leader>fh",
             "<cmd>Neotree filesystem position=left toggle<cr>",
-            desc = "J.A.R.V.I.S.: Neo-tree on your left, sir",
         },
     },
   }

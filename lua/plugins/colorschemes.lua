@@ -29,5 +29,6 @@ return {
     },
 
     -- TODO: Install gruvbox, nightowl
+
 }
 
