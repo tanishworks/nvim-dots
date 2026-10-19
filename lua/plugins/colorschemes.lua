@@ -4,7 +4,16 @@ return {
         name = "catppuccin",
         lazy = false,
         priority = 1000,
-        opts = {},
+        opts = {
+            no_italic = false,
+            styles = {
+                comments = { "italic" },
+                conditionals = { "italic" },
+                functions = { "italic" },
+                keywords = { "italic" },
+                types = { "italic" },
+            },
+        },
     },
 
     {
@@ -29,6 +38,4 @@ return {
     },
 
     -- TODO: Install gruvbox, nightowl
-
 }
-

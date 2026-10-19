@@ -5,5 +5,5 @@ require("config.treesitter");
 -- vim options (gutter, tabstops, keybinds, colorschemes etc):
 require("config.vim-options");
 require("config.keymaps");
-vim.cmd.colorscheme("dracula")
+vim.cmd.colorscheme("catppuccin")
 
