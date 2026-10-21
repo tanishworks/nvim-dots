@@ -17,6 +17,11 @@ vim.keymap.set('n', '<c-l>', ':TmuxNavigateRight <CR>')
 vim.keymap.set('n', '<leader>t', ':TestFile<CR>')
 vim.keymap.set('n', '<leader>l', ':TestLast<CR>')
 
+vim.keymap.set("n", "<Tab>", "gt", { desc = "Next tab" })
+vim.keymap.set("n", "<S-Tab>", "gT", { desc = "Previous tab" })
+vim.keymap.set("n", "<c-.>", "<c-w>>", { desc = "increase width" })
+vim.keymap.set("n", "<c-,>", "<c-w><", { desc = "decrease width" })
+
 -- Telescope --
 
 -- local builtin = require('telescope.builtin')
