@@ -38,6 +38,8 @@ return {
         { "<leader>gl", function() Snacks.lazygit.log_file() end, desc = "Lazygit Log (cwd)", },
         { "<leader>lg", function() Snacks.lazygit() end, desc = "Lazygit", },
         { "<leader>ff", function() Snacks.picker.pick("files") end, desc = "Find Files", },
+        { "<leader>fh", function() Snacks.explorer({ layout = { layout = { position = "left" } } }) end, desc = "File Explorer (left)", },
+        { "<leader>fl", function() Snacks.explorer({ layout = { layout = { position = "right" } } }) end, desc = "File Explorer (right)", },
         { "<leader><leader>", function() Snacks.picker.recent() end, desc = "Recent Files", },
         { "<leader>fb", function() Snacks.picker.buffers() end, desc = "Buffers", },
         { "<leader>fg", function() Snacks.picker.grep() end, desc = "Grep Files", },
